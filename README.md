@@ -11,6 +11,7 @@ This project prepared for portfolio. This project for Online shop.
 ## Installiation of the project
 
 - ``` composer install ```
+- ``` composer require symfony/mailer ```
 
 
 ## Contact with developer
@@ -21,4 +22,28 @@ To change the code you are to appeal [Hamidullo Rahmonberdiyev](https://t.me/ham
 
 ``` 
 DB_HOST=mysql 
+```
+```
+MAIL_MAILER=smtp
+```
+```
+MAIL_HOST=smtp.zoho.com
+```
+```
+MAIL_PORT=465
+```
+```
+MAIL_USERNAME=myshopuz@zohomail.com
+```
+```
+MAIL_PASSWORD=********
+```
+```
+MAIL_ENCRYPTION=ssl
+```
+```
+MAIL_FROM_ADDRESS="myshopuz@zohomail.com"
+```
+```
+MAIL_FROM_NAME="${APP_NAME}"
 ```
